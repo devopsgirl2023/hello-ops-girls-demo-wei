@@ -24,7 +24,7 @@ Resources:
       InstanceType: t2.micro
       KeyName: devops-girls-2023
       SecurityGroups:
-        - 
+        - !Ref SecurityGroupName
 
       # TODO: Add properties according to the playbook
       IamInstanceProfile: !Ref InstanceProfile
